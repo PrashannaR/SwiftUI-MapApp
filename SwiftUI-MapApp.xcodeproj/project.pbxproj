@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		5D010D4529A00AA40091F0B2 /* SwiftUI_MapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D010D4429A00AA40091F0B2 /* SwiftUI_MapAppApp.swift */; };
 		5D010D4729A00AA40091F0B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D010D4629A00AA40091F0B2 /* ContentView.swift */; };
-		5D010D4929A00AA40091F0B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D010D4829A00AA40091F0B2 /* Assets.xcassets */; };
 		5D010D4C29A00AA40091F0B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D010D4B29A00AA40091F0B2 /* Preview Assets.xcassets */; };
+		5D010D5329A00B540091F0B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D010D5229A00B540091F0B2 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5D010D4129A00AA40091F0B2 /* SwiftUI-MapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-MapApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D010D4429A00AA40091F0B2 /* SwiftUI_MapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MapAppApp.swift; sourceTree = "<group>"; };
 		5D010D4629A00AA40091F0B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5D010D4829A00AA40091F0B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D010D4B29A00AA40091F0B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D010D5229A00B540091F0B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			children = (
 				5D010D4429A00AA40091F0B2 /* SwiftUI_MapAppApp.swift */,
 				5D010D4629A00AA40091F0B2 /* ContentView.swift */,
-				5D010D4829A00AA40091F0B2 /* Assets.xcassets */,
+				5D010D5229A00B540091F0B2 /* Assets.xcassets */,
 				5D010D4A29A00AA40091F0B2 /* Preview Content */,
 			);
 			path = "SwiftUI-MapApp";
@@ -125,8 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D010D5329A00B540091F0B2 /* Assets.xcassets in Resources */,
 				5D010D4C29A00AA40091F0B2 /* Preview Assets.xcassets in Resources */,
-				5D010D4929A00AA40091F0B2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -28,6 +28,9 @@ class LocationsViewModel: ObservableObject {
     
     //show drop down
     @Published var showDropDown: Bool = false
+    
+    //show location via sheet
+    @Published var sheetLocation: Location? = nil
 
     init() {
         let locations = LocationsDataService.locations
